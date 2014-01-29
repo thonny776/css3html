@@ -1,0 +1,85 @@
+
+root { 
+    display: block;
+}
+
+body
+{
+    background: #222;
+    color: #EEE;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+header
+{
+    background: url("logo.jpg") no-repeat 50% center,
+				url("fondo1.jpg");
+	/*background-size: 200px, 100px,100px;*/
+    margin: 0 0 1em 0;
+    padding: 0.5em 0;
+    width: 100%;   
+}
+
+header h1
+{
+margin:0;
+text-shadow: rgba(255,255,255, 0.8) 5px 5px 10px; 
+}
+header h2
+{
+margin:0;
+font-weight: normal;
+text-shadow: rgba(0,0,0, 0.8) 2px 2px 5px; 
+}
+nav
+{
+    background: rgba(60,60,180,0.8);
+    bottom: 0;
+    color: #EEE;
+    font-size: 1.5em;
+    left: 0;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ nav ul li
+ {
+     display: inline-block;
+     
+ }
+nav  li a
+{
+    background: #D23D15;
+    border-radius: 0.5em;
+    color: white;
+    display: inline-block;
+    margin: 0 1em 0 0 ;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s liner;
+}
+nav  li a:hover
+{
+    background: #fff;
+    color: black;
+    transform: scale(1.2) rotate(-10deg);
+    -webkit-transform: scale(1.2) rotate(-10deg);
+}
+#historia
+{
+background: rgba(0,0,0,0.6);
+border-radius: 0.5em;
+padding:1em;
+text-align: left;
+width: 40%;
+}
